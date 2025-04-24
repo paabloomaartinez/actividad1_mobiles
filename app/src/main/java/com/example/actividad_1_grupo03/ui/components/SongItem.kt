@@ -7,8 +7,8 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
-import com.example.mymusic.data.model.Song
-import com.example.mymusic.R
+import com.example.actividad_1_grupo03.data.model.Song
+import com.example.actividad_1_grupo03.R
 
 /**
  * Composable reutilizable que muestra la información básica de una canción.
