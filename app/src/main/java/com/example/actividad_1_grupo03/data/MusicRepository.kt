@@ -1,5 +1,6 @@
 package com.example.actividad_1_grupo03.data
 
+import com.example.actividad_1_grupo03.R
 import com.example.actividad_1_grupo03.data.model.Album
 import com.example.actividad_1_grupo03.data.model.Song
 
@@ -14,7 +15,7 @@ import com.example.actividad_1_grupo03.data.model.Song
  */
 object MusicRepository {
     val allAlbums = listOf(
-        Album(1, "X 100PRE", "Bad Bunny", 2018, listOf(
+        Album(1, "X 100PRE", "Bad Bunny", 2018, R.drawable.bad_bunny_x100pre,listOf(
             Song(1, "NI BIEN NI MAL", "3:54"),
             Song(2, "200 MPH", "2:59"),
             Song(3, "¿Quién Tú Eres?", "2:46"),
@@ -31,7 +32,7 @@ object MusicRepository {
             Song(14, "Estamos Bien", "3:28"),
             Song(15, "MIA", "3:30")
         )),
-        Album(2, "YHLQMDLG", "Bad Bunny", 2020, listOf(
+        Album(2, "YHLQMDLG", "Bad Bunny", 2020, R.drawable.bad_bunny_yhlqmdlg, listOf(
             Song(16, "Si Veo a Tu Mamá", "2:50"),
             Song(17, "La Difícil", "2:43"),
             Song(18, "Pero Ya No", "2:40"),
@@ -53,7 +54,7 @@ object MusicRepository {
             Song(34, "Hablamos Mañana", "3:39"),
             Song(35, "<3", "2:33")
         )),
-        Album(3, "El Último Tour del Mundo", "Bad Bunny", 2020, listOf(
+        Album(3, "El Último Tour del Mundo", "Bad Bunny", 2020, R.drawable.bad_bunny_el_ultimo_tour, listOf(
             Song(36, "El Mundo es Mío", "2:45"),
             Song(37, "Te Mudaste", "2:10"),
             Song(38, "Hoy Cobré", "2:42"),
@@ -71,7 +72,7 @@ object MusicRepository {
             Song(50, "Antes Que Se Acabe", "3:53"),
             Song(51, "Cantares de Navidad", "3:42")
         )),
-        Album(4, "Un Verano Sin Ti", "Bad Bunny", 2022, listOf(
+        Album(4, "Un Verano Sin Ti", "Bad Bunny", 2022, R.drawable.bad_bunny_un_verano_sin_ti, listOf(
             Song(52, "Moscow Mule", "4:05"),
             Song(53, "Después de la Playa", "3:50"),
             Song(54, "Me Porto Bonito", "2:58"),
@@ -96,7 +97,7 @@ object MusicRepository {
             Song(73, "Agosto", "3:23"),
             Song(74, "Callaita", "4:10")
         )),
-        Album(5, "Nadie Sabe Lo Que Va a Pasar Mañana", "Bad Bunny", 2023, listOf(
+        Album(5, "Nadie Sabe Lo Que Va a Pasar Mañana", "Bad Bunny", 2023, R.drawable.bad_bunny_nadie_sabe, listOf(
             Song(75, "NADIE SABE", "3:20"),
             Song(76, "MONACO", "3:31"),
             Song(77, "FINA", "3:13"),
@@ -111,7 +112,7 @@ object MusicRepository {
             Song(86, "UN PREVIEW", "2:51"),
             Song(87, "WHERE SHE GOES", "3:51")
         )),
-        Album(6, "Oasis", "Bad Bunny & J Balvin", 2019, listOf(
+        Album(6, "Oasis", "Bad Bunny & J Balvin", 2019, R.drawable.bad_bunny_oasis, listOf(
             Song(88, "Mojaita", "2:58"),
             Song(89, "Yo Le Llego", "3:24"),
             Song(90, "Cuidao Por Ahí", "2:47"),
@@ -121,7 +122,7 @@ object MusicRepository {
             Song(94, "Odio", "2:45"),
             Song(95, "Como Un Bebé", "3:42")
         )),
-        Album(7, "Las Que No Iban A Salir", "Bad Bunny", 2020, listOf(
+        Album(7, "Las Que No Iban A Salir", "Bad Bunny", 2020, R.drawable.bad_bunny_las_que_no_iban, listOf(
             Song(96, "SI ELLA SALE", "2:23"),
             Song(97, "MÁS DE UNA CITA", "3:03"),
             Song(98, "BYE ME FUI", "2:58"),
@@ -138,6 +139,7 @@ object MusicRepository {
             title = "Debí Tirar Más Fotos",
             artist = "Bad Bunny",
             year = 2025,
+            R.drawable.bad_bunny_debi_tirar_fotos,
             songs = listOf(
                 Song(106, "Nuevayol", "2:56"),
                 Song(107, "Voy a llevarte pa PR", "3:15"),
@@ -163,6 +165,7 @@ object MusicRepository {
             title = "Súper Sangre Joven",
             artist = "Duki",
             year = 2019,
+            R.drawable.duki_super_sangre_joven,
             songs = listOf(
                 Song(123, "Te Traje Flores", "2:02"),
                 Song(124, "It's a Vibe", "3:40"),
@@ -181,6 +184,7 @@ object MusicRepository {
             title = "24",
             artist = "Duki",
             year = 2020,
+            R.drawable.duki_24,
             songs = listOf(
                 Song(133, "Flex Like Trunkz", "2:49"),
                 Song(134, "Pastillas", "3:20"),
@@ -197,6 +201,7 @@ object MusicRepository {
             title = "Desde el Fin del Mundo",
             artist = "Duki",
             year = 2021,
+            R.drawable.duki_desde_el_fin,
             songs = listOf(
                 Song(141, "Sudor y Trabajo", "3:00"),
                 Song(142, "Pintao", "2:47"),
@@ -223,6 +228,7 @@ object MusicRepository {
             title = "Vivo Desde el Fin del Mundo",
             artist = "Duki",
             year = 2021,
+            R.drawable.duki_vivo_desde_el_fin,
             songs = listOf(
                 Song(159, "Sudor y Trabajo - Vivo Calafate", "3:01"),
                 Song(160, "Chico Estrella - Vivo Calafate", "2:48"),
@@ -242,6 +248,7 @@ object MusicRepository {
             title = "Temporada de Reggaetón",
             artist = "Duki",
             year = 2021,
+            R.drawable.duki_temporada_reggaeton,
             songs = listOf(
                 Song(170, "En Movimiento", "2:50"),
                 Song(171, "Ley de Atracción", "3:00"),
@@ -257,6 +264,7 @@ object MusicRepository {
             title = "Temporada de Reggaetón 2",
             artist = "Duki",
             year = 2022,
+            R.drawable.duki_temporada_reggaeton_2,
             songs = listOf(
                 Song(177, "Amor Bipolar", "3:15"),
                 Song(178, "Celosa", "2:37"),
@@ -273,6 +281,7 @@ object MusicRepository {
             title = "Antes de Ameri",
             artist = "Duki",
             year = 2023,
+            R.drawable.duki_antes_de_ameri,
             songs = listOf(
                 Song(185, "01 de ENEro", "1:54"),
                 Song(186, "JEFES DEL SUDOESTE", "2:27"),
@@ -297,6 +306,7 @@ object MusicRepository {
             title = "AMERI",
             artist = "Duki",
             year = 2024,
+            R.drawable.duki_ameri,
             songs = listOf(
                 Song(201, "Leitmotiv", "1:25"),
                 Song(202, "Nueva Era", "3:37"),
@@ -315,7 +325,7 @@ object MusicRepository {
                 Song(215, "Ameri", "3:19")
             )
         ),
-        Album(17, "Trap Cake, Vol. 1", "Rauw Alejandro", 2019, listOf(
+        Album(17, "Trap Cake, Vol. 1", "Rauw Alejandro", 2019, R.drawable.rauw_trap_cake_vol1, listOf(
             Song(216, "Al Mismo Tiempo", "4:10"),
             Song(217, "Cubierto de Ti", "4:29"),
             Song(218, "Espuma", "4:20"),
@@ -325,7 +335,7 @@ object MusicRepository {
             Song(222, "Hasta Donde", "5:13")
         )),
 
-        Album(18, "Concierto Virtual en Tiempos de COVID-19 Desde el Coliseo de Puerto Rico", "Rauw Alejandro", 2020, listOf(
+        Album(18, "Concierto Virtual en Tiempos de COVID-19 Desde el Coliseo de Puerto Rico", "Rauw Alejandro", 2020, R.drawable.rauw_concierto_virtual, listOf(
             Song(223, "Intro - Live", "0:52"),
             Song(224, "Que Le Dé - Live", "2:15"),
             Song(225, "El Efecto - Live", "3:34"),
@@ -345,7 +355,7 @@ object MusicRepository {
             Song(239, "Fantasías - Live", "5:30")
         )),
 
-        Album(19, "Afrodisíaco", "Rauw Alejandro", 2020, listOf(
+        Album(19, "Afrodisíaco", "Rauw Alejandro", 2020, R.drawable.rauw_afrodisiaco, listOf(
             Song(240, "Dile a Él", "3:29"),
             Song(241, "Strawberry Kiwi", "3:32"),
             Song(242, "Mood", "2:56"),
@@ -364,7 +374,7 @@ object MusicRepository {
             Song(255, "Tattoo - Remix", "3:42")
         )),
 
-        Album(20, "VICE VERSA", "Rauw Alejandro", 2021, listOf(
+        Album(20, "VICE VERSA", "Rauw Alejandro", 2021, R.drawable.rauw_vice_versa, listOf(
             Song(256, "Todo De Ti", "3:19"),
             Song(257, "Sexo Virtual", "3:28"),
             Song(258, "Nubes", "2:58"),
@@ -381,7 +391,7 @@ object MusicRepository {
             Song(269, "Brazilera", "3:04")
         )),
 
-        Album(21, "Trap Cake Vol. 2", "Rauw Alejandro", 2022, listOf(
+        Album(21, "Trap Cake Vol. 2", "Rauw Alejandro", 2022, R.drawable.rauw_trap_cake_vol2, listOf(
             Song(270, "MUSEO", "4:15"),
             Song(271, "CAPRICHOSO", "2:47"),
             Song(272, "RED VELVET", "3:33"),
@@ -393,7 +403,7 @@ object MusicRepository {
             Song(278, "HACKIAO", "4:11")
         )),
 
-        Album(22, "SATURNO", "Rauw Alejandro", 2023, listOf(
+        Album(22, "SATURNO", "Rauw Alejandro", 2023, R.drawable.rauw_saturno, listOf(
             Song(279, "SATURNO", "1:31"),
             Song(280, "PUNTO 40", "3:10"),
             Song(281, "MÁS DE UNA VEZ", "4:05"),
@@ -414,7 +424,7 @@ object MusicRepository {
             Song(296, "LOKERA", "3:17")
         )),
 
-        Album(23, "PLAYA SATURNO", "Rauw Alejandro", 2023, listOf(
+        Album(23, "PLAYA SATURNO", "Rauw Alejandro", 2023, R.drawable.rauw_playa_saturno, listOf(
             Song(297, "PLAYA SATURNO INTRO", "1:15"),
             Song(298, "CUANDO BAJE EL SOL", "2:46"),
             Song(299, "AL CALLAO'", "4:02"),
@@ -431,7 +441,7 @@ object MusicRepository {
             Song(310, "BABY HELLO", "3:42")
         )),
 
-        Album(24, "Cosa Nuestra", "Rauw Alejandro", 2024, listOf(
+        Album(24, "Cosa Nuestra", "Rauw Alejandro", 2024, R.drawable.rauw_cosa_nuestra, listOf(
             Song(311, "Cosa Nuestra", "4:20"),
             Song(312, "Déjame Entrar", "4:14"),
             Song(313, "Qué Pasaría...", "3:11"),
