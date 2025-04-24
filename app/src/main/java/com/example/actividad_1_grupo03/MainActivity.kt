@@ -23,6 +23,7 @@ import androidx.compose.material.icons.filled.MusicNote
 import androidx.compose.material.icons.filled.Search
 import androidx.activity.compose.BackHandler
 
+
 /**
  * Punto de entrada principal de la aplicación.
  * Administra la navegación entre pantallas usando estados Compose.
@@ -70,7 +71,8 @@ class MainActivity : ComponentActivity() {
                             NavigationBarItem(
                                 selected = currentScreen == "albums",
                                 onClick = { currentScreen = "albums" },
-                                icon = { Icon(Icons.Default.MusicNote, contentDescription = stringResource(R.string.albums_title)) },
+                                icon = { Icon(Icons.Default.MusicNote, contentDescription = stringResource(
+                                    R.string.albums_title)) },
                                 label = { Text("Álbumes") }
                             )
                             NavigationBarItem(

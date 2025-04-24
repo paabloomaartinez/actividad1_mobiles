@@ -5,11 +5,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.mymusic"
+    namespace = "com.example.actividad_1_grupo03"
     compileSdk = 35
 
     defaultConfig {
-        applicationId = "com.example.mymusic"
+        applicationId = "com.example.actividad_1_grupo03"
         minSdk = 29
         targetSdk = 35
         versionCode = 1
